@@ -69,8 +69,8 @@ CREATE TABLE Tasks (
 -- ==> Added: Sample users (1 Admin, 2 Regular Users)
 INSERT INTO Users (Username, FullName, Email, UserRole) VALUES
 ('admin', 'Admin User', 'admin@teammanagement.com', 'Admin'),
-('john.doe', 'John Doe', 'john.doe@teammanagement.com', 'User'),
-('jane.smith', 'Jane Smith', 'jane.smith@teammanagement.com', 'User');
+('esraa.hosam', 'Esraa Hosam', 'esraa.hosam@company.com', 'User'),
+('ahmed.hosam', 'Ahmed Hosam', 'ahmed.hosam@company.com', 'User');
 
 -- ==> Added: Sample activities
 INSERT INTO Activities (ActivityName, Description, StartDate, EndDate, CreatedBy) VALUES
