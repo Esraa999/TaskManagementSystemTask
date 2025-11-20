@@ -31,10 +31,7 @@ namespace TeamManagementSystem
                 defaults: new { id = RouteParameter.Optional }
             );
 
-            // ==> Enable CORS (Cross-Origin Resource Sharing) for API calls
-            // ==> Allows JavaScript from any origin to call our API
-            // ==> Note: CORS is disabled as the package is not installed
-            // config.EnableCors();
+         
         }
     }
 }
